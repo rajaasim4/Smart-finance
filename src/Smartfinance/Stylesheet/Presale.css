@@ -1,0 +1,185 @@
+.Presale {
+  /* height: 90rem;
+  width: 100%;
+  width: 1665px;
+height: 858px; */
+  width: 100%;
+  height: 85.8rem;
+  background-color: #161243;
+}
+.presale_haeding {
+  height: 9rem;
+  width: 80%;
+  margin: auto;
+  /* background-color: magenta; */
+  display: flex;
+  align-items: center;
+}
+.presale_haeding h1 {
+  color: #6a94b8;
+  font-size: 3rem;
+  font-family: "Mulish", sans-serif;
+}
+.presale_detail {
+  height: 30rem;
+  width: 100%;
+  /* background-color: antiquewhite; */
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  align-items: center;
+  padding: 2rem 15rem;
+  box-sizing: border-box;
+}
+.presale_sub {
+  height: 7rem;
+  width: 23%;
+  /* background-color: orange; */
+  border-radius: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  padding: 0rem 3rem;
+  box-sizing: border-box;
+  transition: 0.7s;
+}
+.presale_sub h2 {
+  color: #aeacbe;
+  font-size: 1.9rem;
+}
+.presale_sub p {
+  color: #8da587;
+  font-size: 1.4rem;
+}
+.presale_sub:hover {
+  cursor: pointer;
+  box-shadow: 0.2rem 0.2rem 1rem #58c5f7;
+  /* background-color: rebeccapurple; */
+}
+.presale_message {
+  height: 30rem;
+  width: 100%;
+  display: flex;
+  /* background-color: red; */
+  justify-content: space-evenly;
+  /* align-items: center; */
+}
+.presale_text {
+  /* height: 20rem;
+  width: 40%;
+  width: 675px;
+height: 195px; */
+  width: 67.5rem;
+  height: 19.5rem;
+  /* background-color: orange; */
+  /* display: flex;
+
+  justify-content: center; */
+  /* align-items: center; */
+  flex-direction: column;
+  padding: 2rem 5rem;
+  box-sizing: border-box;
+  /* border: 3px solid;
+
+  border-image-source: linear-gradient(
+    90deg,
+    #342ba0 0%,
+    #5b78ff 51.73%,
+    #342ba0 100%
+  ); */
+  border: 0.2rem solid #342ba0;
+
+  border-radius: 0rem 2.8rem 2.8rem 2.8rem;
+}
+.presale_text h2 {
+  color:  #BDE0A2;
+;
+  font-size: 2.4rem;
+}
+.presale_text p {
+  color: #fff;
+  font-size: 2.4rem;
+  text-align:left;
+}
+.presales_timer {
+  height: 20rem;
+  width: 30%;
+  /* background-color: rgb(145, 99, 16); */
+}
+.Presale_text_timer {
+  /* background-color: #201b64; */
+  background: rgba(45, 38, 138, 0.3);
+  /* background-color: red; */
+  /* height: 16rem;
+  width: 30rem; */
+  width: 35.2rem;
+  height: 17.5rem;
+  box-shadow: 2px 2px 15px #504c86;
+  /* position: relative;
+  top: 8rem;
+  left: 12rem; */
+  padding: 3rem 2rem;
+  box-sizing: border-box;
+}
+.Presale_text_timer h3 {
+  color: #b4d59f;
+  font-size: 2rem;
+  text-align: center;
+  font-family: "Mulish", sans-serif;
+}
+.Presale_timer {
+  /* background-color: aliceblue; */
+  height: 3rem;
+  width: 32rem;
+  /*width: 282px;
+height: 175px; */
+
+  display: flex;
+  justify-content: space-around;
+}
+.Presale_timer span {
+  font-size: 2rem;
+  color: #7baed3;
+}
+.Presale_timer  .realtime {
+  font-size: 1.5rem;
+  color: #3363a0;
+  display: block;
+}
+.Presale_text_timer button {
+  color: #97daf7;
+  /* background: #97DAF7; */
+
+  border: 1px solid #3363a0;
+  background-color: #201a64;
+  padding: 0.8rem 3rem;
+  position: relative;
+  top: 1.4rem;
+  left: 8rem;
+  
+}
+@media screen and (max-width: 1280px) {
+  .Presale {
+    width: 131rem;
+    /* height: 75rem; */
+  }
+}
+@media screen and (max-width: 768px) {
+  .Presale {
+    width: 131rem;
+    height: 75rem;
+  }
+}
+@media screen and (max-width: 426px) {
+  .presale_detail {
+    height: 60rem;
+    /* background-color: orange; */
+  }
+  .presale_sub {
+    width: 30%;
+  }
+  .Presale {
+    width: 131rem;
+    height: 100rem;
+  }
+}

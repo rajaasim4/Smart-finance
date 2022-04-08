@@ -1,0 +1,304 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish:ital,wght@1,300&display=swap");
+
+.Banner {
+  /* height: 60rem;
+  width: 100%;
+  width: 1200px;
+height: 870px; */
+  width: 100%;
+  height: 87rem;
+  background-color: #0e0a41;
+  /* background-color: #1d1857; */
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  position: relative;
+}
+.Banner_text {
+  /* height: 40rem;
+  width: 45%; */
+  width: 63.5rem;
+  height: 52.2rem;
+  /* background-color: beige; */
+  padding: 0rem 0rem 0rem 8rem;
+  box-sizing: border-box;
+}
+.Banner_text h1 {
+  font-size: 5rem;
+  color: #97daf7;
+  font-family: "Mulish", sans-serif;
+  line-height: 1.8;
+}
+.Banner_text h1 span {
+  color: #bde0a2;
+  font-family: "Mulish", sans-serif;
+}
+.Banner_text h2 {
+  color: #f4f4f7;
+  font-size: 2.5rem;
+  margin-bottom: 1.8rem;
+}
+.Banner_text p {
+  color: #7baed3;
+  font-size: 1.6rem;
+  text-align: left;
+  line-height: 1.5;
+}
+.social {
+  /* height: 45rem;
+  width: 5%;
+  width: 55px;
+height: 422px; */
+  width: 5.5rem;
+  height: 42.2rem;
+  background-color: #1f2373;
+  border-radius: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  /* top: 10rem;
+  right: 0rem;
+  left: 1583px;
+  top: 335px; */
+  /* left: 158.3rem; */
+  position: absolute;
+  right: 1rem;
+  top: 35rem;
+}
+.social a {
+  background-color: #545179;
+  /* background-color: white; */
+  border-radius: 5rem;
+  height: 5rem;
+  width: 5rem;
+  line-height: 2;
+  text-align: center;
+  font-size: 3rem;
+  color: #100d2f;
+}
+.social a:hover {
+  background-color: #100d2f;
+  color: #545179;
+}
+.Banner_text_timer {
+  /* background-color: #201b64; */
+  background: rgba(45, 38, 138, 0.3);
+  /* height: 16rem;
+  width: 30rem; */
+  width: 35.2rem;
+  height: 17.5rem;
+  box-shadow: 2px 2px 15px #504c86;
+  position: relative;
+  top: 8rem;
+  left: 12rem;
+  padding: 3rem 2rem;
+  box-sizing: border-box;
+}
+.Banner_text_timer h3 {
+  color: #b4d59f;
+  font-size: 2rem;
+  text-align: center;
+  font-family: "Mulish", sans-serif;
+}
+.timer {
+  /* background-color: aliceblue; */
+  height: 3rem;
+  width: 32rem;
+  /*width: 282px;
+height: 175px; */
+
+  display: flex;
+  justify-content: space-around;
+}
+.timer span {
+  font-size: 2rem;
+  color: #7baed3;
+}
+.timer .realtime {
+  font-size: 1.5rem;
+  color: #3363a0;
+}
+.Banner_text_timer button {
+  color: #97daf7;
+  /* background: #97DAF7; */
+
+  border: 1px solid #3363a0;
+  background-color: #201a64;
+  padding: 0.8rem 3rem;
+  position: relative;
+  top: 1.4rem;
+  left: 8rem;
+}
+.Banner_img {
+  /* height: 40rem;
+  width: 45%; */
+  width: 63.5rem;
+  height: 52.2rem;
+  /* background-color: mediumaquamarine; */
+}
+.Banner_img img {
+  /* height: 100%;
+  width: 100%; */
+  /* width: 635px;
+  height: 522px; */
+  width: 63.5rem;
+  height: 52.2rem;
+}
+.Banner_input {
+  height: 8rem;
+  width: 100%;
+
+  background-color: #0e0a41;
+  display: grid;
+  place-items: center;
+}
+.Banner_input .input {
+  /* height: 4rem;
+  width: 65rem;
+  width: 526px;
+height: 62px; */
+
+  width: 58.6rem;
+  height: 6.2rem;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  border-radius: 1rem;
+}
+.Banner_input input {
+  height: 4rem;
+  width: 40rem;
+  padding: 1rem 3rem;
+  outline: 0;
+  border-radius: 1rem;
+  border: 0;
+  font-size: 3rem;
+}
+
+.Banner_input button {
+  height: 6rem;
+  width: 20rem;
+  font-size: 1.6rem;
+  background-color: #ffc107;
+  /* color: white; */
+  border-radius: 1rem;
+  outline: 0;
+  border: 0;
+}
+.Banner_input h2 {
+  color: #bde0a2;
+  line-height: 2;
+}
+.partner {
+  height: 14.3rem;
+
+  width: 100%;
+  background-color: #0e0a41;
+  padding: 0rem 10rem;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.partner img {
+  background-blend-mode: color;
+}
+.social {
+  opacity: 0.4;
+}
+.social:hover {
+  opacity: 1;
+}
+@media screen and (max-width: 1280px) {
+  .partner {
+    padding: 0rem 0rem;
+  }
+  .Banner {
+    width: 131rem;
+  }
+  .Banner_img img {
+    width: 60.5rem;
+    height: 50.2rem;
+  }
+  .Banner_input {
+    width: 131rem;
+    height: 12rem;
+  }
+  .partner {
+    width: 131rem;
+  }
+  .social {
+    right: -3rem;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .Banner_text_timer {
+    top: 2rem;
+    left: 5rem;
+  }
+  .social a {
+    width: 3rem;
+    height: 3rem;
+    font-size: 2rem;
+  }
+  .partner {
+    height: 13rem;
+  }
+  .social {
+    right: -28rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .Banner_text_timer {
+    top: 4rem;
+    left: 3rem;
+  }
+  .Banner {
+    width: 131rem;
+    height: 130rem;
+    flex-direction: column;
+  }
+  .social {
+    align-self: end;
+    justify-self: flex-start;
+
+    top: 45rem;
+    right: -53rem;
+  }
+  .Banner_input {
+    width: 131rem;
+  }
+  .partner {
+    width: 131rem;
+    height: 20rem;
+    padding: 0rem 4rem;
+  }
+}
+@media screen and (max-width:430px) {
+  .social {
+    /* top: 45rem; */
+    right: -86rem;
+    width: 5rem;
+  }
+  .partner {
+    width: 94rem;
+    height: 95rem;
+    padding: 0rem 4rem;
+    flex-direction: column;
+  }
+  .partner {
+    width: 131rem;
+  }
+}
+@media screen and (max-width: 320px) {
+  .social {
+   
+    /* top: 22rem; */
+    right: -94rem;
+    width: 5rem;
+  }
+}

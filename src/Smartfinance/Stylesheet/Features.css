@@ -1,0 +1,94 @@
+.Features {
+  height: 134.5rem;
+  width: 100%;
+  background-color: rgba(13, 8, 59, 255);
+}
+.headings {
+    height: 14rem;
+    width: 100%;
+    /* background-color: blue; */
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    margin-bottom: 2rem;
+    padding: 0rem 22rem;
+    box-sizing: border-box;
+  }
+  
+  .headings h1 {
+    font-size: 4rem;
+    color: #97daf7;
+    font-family: "Mulish", sans-serif;
+  }
+.feature_sub {
+  /* height: 80rem;
+   */
+   height: 98.1rem;
+  width: 100%;
+  /* width: 116.6rem; */
+  background-color: rgba(13, 8, 59, 255);
+  background-image: url("../Images/SmartFinance_Icon_Gradient\ 1.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  align-items: center;
+  padding: 0rem 7rem;
+  box-sizing: border-box;
+  margin: auto;
+}
+.component {
+  /* height: 35rem;
+  width: 30%;
+  width: 373px;
+height: 418px; */
+width: 37.3rem;
+height: 41.8rem;
+  background: linear-gradient(180deg, rgba(33, 27, 99, 0.85) 0%, rgba(33, 27, 99, 0.15) 111.03%);
+  border-radius: 1rem;
+  display: flex;
+  /* justify-content: center; */
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem 3rem;
+  justify-content: space-evenly;
+  box-sizing: border-box;
+}
+.component h1 {
+  color: #7f9287;
+  font-size: 2rem;
+}
+.component p {
+  color: #97DAF7;
+  font-weight: 500;
+  line-height: 3.1rem;
+  font-size: 1.8rem;
+}
+@media screen and (max-width:1280px)
+{
+  .Features{
+    width: 131rem;
+  }
+}
+@media screen and (max-width:768px)
+{
+    .Features{
+        height: 130rem;
+        width: 131rem;
+    }
+}
+@media screen and (max-width:426px)
+{
+    .Features{
+        height: 158rem;
+        width: 131rem;
+    }
+    .feature_sub{
+      height: 140rem;
+      /* background-color: red; */
+    }
+    .component{
+      width: 45%;
+    }
+}

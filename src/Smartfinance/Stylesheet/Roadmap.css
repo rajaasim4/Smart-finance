@@ -1,0 +1,118 @@
+.Roadmap {
+  height: 70rem;
+  width: 100%;
+  background-color: rgba(13, 8, 59, 255);
+  background-image: url("../Images/MAP.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.roadmapheading {
+  height: 10rem;
+  width: 100%;
+  padding: 2rem 12rem;
+  box-sizing: border-box;
+  background-color: #0d093b;
+}
+.roadmapheading h1 {
+  font-size: 4rem;
+  color: #97daf7;
+  font-family: "Mulish", sans-serif;
+}
+.Roadmap_box1 {
+  height: 30rem;
+  width: 30%;
+  /* background-color: aqua; */
+  display: flex;
+  justify-content: space-evenly;
+}
+.roadmapleft {
+  /* background-color: red; */
+  width: 40%;
+  display: flex;
+  justify-content: space-between;
+}
+.roadmapleft h2 {
+  font-size: 3rem;
+  color: #fdfdfe;
+  /* color: #97daf7; */
+}
+.circle {
+  color: green;
+  font-size: 2rem;
+  box-shadow: 0.4rem 0.4rem 2rem rgb(0, 192, 0);
+}
+.roadmapright {
+  /* background-color: rgb(21, 77, 58); */
+  width: 80%;
+  height: 30rem;
+  padding: 0rem 4rem; 
+   box-sizing: border-box;
+  /* display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center; */
+}
+.roadmapright p {
+  color: #5bccfc;
+  font-size: 2rem;
+  text-align: left;
+}
+.tick {
+  font-size: 2rem;
+}
+.Roadmap_box2 {
+  height: 34rem;
+  width: 30%;
+  /* background-color: aqua; */
+  display: flex;
+  justify-content: space-evenly;
+}
+@media screen and (max-width:1280px)
+{
+  .Roadmap{
+    height: 70rem;
+    width: 131rem;
+  }
+  .roadmapheading{
+    width: 131rem;
+  }
+  .Roadmap_box1{
+    width: 50%;
+  }
+  .Roadmap_box2{
+    width: 50%;
+  }
+}
+@media screen and (max-width:768px)
+{
+  .Roadmap{
+    height: 70rem;
+    width: 131rem;
+  }
+  .roadmapheading{
+    width: 131rem;
+  }
+  .Roadmap_box1{
+    width: 70%;
+  }
+  .Roadmap_box2{
+    width: 70%;
+  }
+}
+@media screen and (max-width:426px)
+{
+  .Roadmap{
+    height: 70rem;
+  }
+  .Roadmap_box1{
+    width: 70%;
+  }
+  .Roadmap_box2{
+    width: 70%;
+  }
+}
